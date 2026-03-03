@@ -1,0 +1,4 @@
+name: MMOEngine
+version: '1.0-SNAPSHOT'
+main: org.gi.mMOEngine.MMOEngine
+api-version: '1.21'

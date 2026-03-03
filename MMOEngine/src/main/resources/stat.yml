@@ -1,0 +1,8 @@
+stat:
+  physical_attack:
+    display: "gi.mmo.stat.physical_attack"
+    #OFFENSE , DEFENSE, UTILITY
+    category: "OFFENSE"
+    defaultValue: 1
+    minValue: 1
+    maxValue: 1000
