@@ -5,6 +5,7 @@ import org.gi.model.Enums.ModifierSource;
 import org.gi.model.StatModifier;
 
 import java.util.List;
+import java.util.Optional;
 
 public interface IModifierManager {
     public Result add(StatModifier modifier);
@@ -15,7 +16,7 @@ public interface IModifierManager {
 
     public Result removeAllBySource(ModifierSource source);
 
-    public StatModifier getModifier(String modifierId);
+    public Optional<StatModifier> getModifier(String modifierId);
 
     public List<StatModifier> findBySourceId(String sourceId);
 

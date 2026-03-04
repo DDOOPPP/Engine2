@@ -19,6 +19,8 @@ public interface IStatRegister {
 
     public Collection<Stat> getAllStat();
 
+    public boolean containStat(String statId);
+
     public Result clear();
 
     public boolean isLock();

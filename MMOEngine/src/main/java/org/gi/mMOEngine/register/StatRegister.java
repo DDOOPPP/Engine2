@@ -59,6 +59,11 @@ public class StatRegister implements IStatRegister {
     }
 
     @Override
+    public boolean containStat(String statId) {
+        return statMap.containsKey(statId);
+    }
+
+    @Override
     public Result clear() {
         if (isLock()){
             return Result.ERROR("Stat Register is Locked");
