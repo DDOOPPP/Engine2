@@ -13,7 +13,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.logging.Logger;
 
 public class ModifierManager implements IModifierManager {
-    private Logger logger = MMOEngine.getInstance().getLogger();
+    private Logger logger = Logger.getLogger("Test");
     private final Map<String,StatModifier> modifierMap = new ConcurrentHashMap<>();
     private final Map<String,List<StatModifier>> modifierByStatId = new ConcurrentHashMap<>();
     private final Map<String,List<StatModifier>> modifierBySourceId = new ConcurrentHashMap<>();

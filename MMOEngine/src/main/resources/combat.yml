@@ -1,0 +1,49 @@
+#기본 방어계수 건들지 말것
+defenseConstant: 1
+
+evasion_setting:
+  stat:
+    evasion:
+      attacker: "accuracy"
+      defender: "evasion"
+      limit:
+        min: 0
+        max: 60
+
+critical_setting:
+  stat:
+    chance:
+      attacker: "critical_chance"
+      defender: "critical_resist"
+      limit:
+        min: 10
+        max: 70
+    multiplier:
+      attacker: "critical_damage"
+      defender: "critical_damage_resist"
+      limit:
+        min: 150
+        max: 250
+
+block_setting:
+  stat:
+    block:
+      attacker: "block_penetration" #관통력
+      defender: "block_value" #블록 수치
+      limit:
+        min: 5
+        max: 65
+    blockReduction:
+      attacker: "block_reduction_resist" #관통력
+      defender: "block_reduction" #블록 수치
+      limit:
+        max: 50
+
+damage_setting:
+  type:
+    physical:
+      attacker: "physical_attack"
+      defender: "physical_defense"
+    magical:
+      attacker: "magic_attack"
+      defender: "magic_defense"
