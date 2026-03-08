@@ -1,8 +1,129 @@
 stat:
+  # ===== 공격 관련 =====
   physical_attack:
     display: "gi.mmo.stat.physical_attack"
-    #OFFENSE , DEFENSE, UTILITY
     category: "OFFENSE"
-    defaultValue: 1
+    defaultValue: 10
+    minValue: 0
+    maxValue: 999999
+
+  magic_attack:
+    display: "gi.mmo.stat.magic_attack"
+    category: "OFFENSE"
+    defaultValue: 10
+    minValue: 0
+    maxValue: 999999
+
+  accuracy:
+    display: "gi.mmo.stat.accuracy"
+    category: "OFFENSE"
+    defaultValue: 0
+    minValue: 0
+    maxValue: 999999
+
+  critical_chance:
+    display: "gi.mmo.stat.critical_chance"
+    category: "OFFENSE"
+    defaultValue: 0
+    minValue: 0
+    maxValue: 999999
+
+  critical_damage:
+    display: "gi.mmo.stat.critical_damage"
+    category: "OFFENSE"
+    defaultValue: 150
+    minValue: 150
+    maxValue: 250
+
+  block_penetration:
+    display: "gi.mmo.stat.block_penetration"
+    category: "OFFENSE"
+    defaultValue: 0
+    minValue: 0
+    maxValue: 999999
+
+  block_reduction_resist:
+    display: "gi.mmo.stat.block_reduction_resist"
+    category: "OFFENSE"
+    defaultValue: 0
+    minValue: 0
+    maxValue: 999999
+
+  # ===== 방어 관련 =====
+  physical_defense:
+    display: "gi.mmo.stat.physical_defense"
+    category: "DEFENSE"
+    defaultValue: 0
+    minValue: 0
+    maxValue: 999999
+
+  magic_defense:
+    display: "gi.mmo.stat.magic_defense"
+    category: "DEFENSE"
+    defaultValue: 0
+    minValue: 0
+    maxValue: 999999
+
+  evasion:
+    display: "gi.mmo.stat.evasion"
+    category: "DEFENSE"
+    defaultValue: 0
+    minValue: 0
+    maxValue: 999999
+
+  critical_resist:
+    display: "gi.mmo.stat.critical_resist"
+    category: "DEFENSE"
+    defaultValue: 0
+    minValue: 0
+    maxValue: 999999
+
+  critical_damage_resist:
+    display: "gi.mmo.stat.critical_damage_resist"
+    category: "DEFENSE"
+    defaultValue: 0
+    minValue: 0
+    maxValue: 999999
+
+  block_value:
+    display: "gi.mmo.stat.block_value"
+    category: "DEFENSE"
+    defaultValue: 0
+    minValue: 0
+    maxValue: 999999
+
+  block_reduction:
+    display: "gi.mmo.stat.block_reduction"
+    category: "DEFENSE"
+    defaultValue: 20
+    minValue: 0
+    maxValue: 50
+
+  # ===== 기타 =====
+  max_hp:
+    display: "gi.mmo.stat.max_hp"
+    category: "UTILITY"
+    defaultValue: 100
     minValue: 1
-    maxValue: 1000
+    maxValue: 9999999
+
+  max_mp:
+    display: "gi.mmo.stat.max_mp"
+    category: "UTILITY"
+    defaultValue: 50
+    minValue: 0
+    maxValue: 9999999
+
+  attack_speed:
+    display: "gi.mmo.stat.attack_speed"
+    category: "UTILITY"
+    defaultValue: 100
+    minValue: 10
+    maxValue: 300
+
+  move_speed:
+    display: "gi.mmo.stat.move_speed"
+    category: "UTILITY"
+    defaultValue: 100
+    minValue: 10
+    maxValue: 300

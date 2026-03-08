@@ -10,4 +10,12 @@ public class Enums {
     public enum Operator{
         FLAT, PERCENT
     }
+
+    public enum DamageType {
+        PHYSICAL, MAGICAL
+    }
+
+    public enum BuffType{
+        BUFF, DEBUFF
+    }
 }

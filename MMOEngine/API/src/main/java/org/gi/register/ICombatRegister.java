@@ -10,7 +10,7 @@ public interface ICombatRegister {
 
     public Result unRegister(String settingId);
 
-    public Optional<Setting> findByName(String settingId);
+    public Optional<Setting>  findByName(String settingId);
 
     public Map<String, Setting> getAllSetting();
 
