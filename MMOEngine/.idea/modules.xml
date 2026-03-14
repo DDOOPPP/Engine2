@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/API/MMOEngine.API.main.iml" filepath="$PROJECT_DIR$/.idea/modules/API/MMOEngine.API.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/MMOEngine.main.iml" filepath="$PROJECT_DIR$/.idea/modules/MMOEngine.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MMOEngine.test.iml" filepath="$PROJECT_DIR$/.idea/modules/MMOEngine.test.iml" />
     </modules>
   </component>
 </project>

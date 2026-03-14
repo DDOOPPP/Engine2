@@ -18,4 +18,16 @@ public class Enums {
     public enum BuffType{
         BUFF, DEBUFF
     }
+
+    public enum SkillType{
+        ACTIVE,PASSIVE
+    }
+
+    public enum EffectType{
+        DAMAGE, HEAL, BUFF, DEBUFF
+    }
+
+    public enum Target{
+        SELF, SINGLE , MULTI
+    }
 }
